@@ -19,6 +19,8 @@ package com.pedroborgesalves.javadesignpatterns.factory;
 
 /**
  * <h1>Printer Factory</h1>
+ * <p>In Factory pattern, we create object without exposing the creation logic
+ * to the client and refer to newly created object using a common interface.</p>
  * @author pedroborgesalves
  */
 public class PrinterFactory {
