@@ -17,8 +17,8 @@
  */
 package com.pedroborgesalves.javadesignpatterns.singleton;
 
-import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 /**
  *
@@ -29,11 +29,11 @@ public class SingletonTest {
     @Test
     public void testPrinterFactory(){
 
-        String message = SingleObject.getInstance().getMessage();
+        String message = Singleton.getInstance().getMessage();
         assertEquals(message, "This is the message");
         
-        SingleObject object1 = SingleObject.getInstance();
-        SingleObject object2 = SingleObject.getInstance();
+        Singleton object1 = Singleton.getInstance();
+        Singleton object2 = Singleton.getInstance();
         
         assertEquals(object1, object2);
         
