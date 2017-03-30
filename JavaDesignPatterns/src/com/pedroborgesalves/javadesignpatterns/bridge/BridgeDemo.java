@@ -32,7 +32,7 @@ public class BridgeDemo {
         car.assemble();
         car.printDetails();
 
-        System.out.println("-----------------------------------------------------");
+        System.out.println("-------------------------------------------------");
 
         car = new Motoren(product, "Motoren lm model");
         car.produceProduct();

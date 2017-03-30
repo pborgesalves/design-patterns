@@ -30,6 +30,7 @@ public class Singleton implements Serializable {
         throw new CloneNotSupportedException("Singleton, cannot be clonned");
     }
 
+    //To prevent the singleton getting instantiated from different class loaders
     private static Class getClass(String classname) throws ClassNotFoundException {
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
         if (classLoader == null) {
