@@ -1,6 +1,6 @@
 package com.pedroborgesalves.javadesignpatterns.command;
 
-public class EmailJob implements Job{
+public class EmailJob implements Job {
 
     private Email email;
 

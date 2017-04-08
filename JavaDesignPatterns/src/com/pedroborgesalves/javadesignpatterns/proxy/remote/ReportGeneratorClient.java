@@ -11,7 +11,7 @@ public class ReportGeneratorClient {
     public void generateReport() {
         try {
             ReportGenerator reportGenerator = (ReportGenerator) Naming.lookup(
-            "rmi://127.0.0.1/PizzaCoRemoteGenerator");
+                    "rmi://127.0.0.1/PizzaCoRemoteGenerator");
             System.out.println(reportGenerator.generateDailyReport());
         } catch (Exception e) {
             e.printStackTrace();

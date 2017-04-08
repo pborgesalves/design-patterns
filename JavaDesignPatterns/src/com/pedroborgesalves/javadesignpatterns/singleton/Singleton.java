@@ -38,8 +38,8 @@ public class Singleton implements Serializable {
         }
         return (classLoader.loadClass(classname));
     }
-    
-    public String getMessage(){
+
+    public String getMessage() {
         return "This is the message";
     }
 

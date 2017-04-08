@@ -1,6 +1,6 @@
 package com.pedroborgesalves.javadesignpatterns.proxy.protection;
 
-public class Employee implements Staff{
+public class Employee implements Staff {
 
     private ReportGeneratorProxy reportGenerator;
 

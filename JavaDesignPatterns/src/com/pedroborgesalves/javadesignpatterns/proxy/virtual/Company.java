@@ -7,8 +7,8 @@ public class Company {
     private String companyContactNo;
     private ContactList contactList;
 
-    public Company(String companyName, String companyAddress, String companyContactNo,  
-        ContactList contactList){
+    public Company(String companyName, String companyAddress, String companyContactNo,
+            ContactList contactList) {
         this.companyName = companyName;
         this.companyAddress = companyAddress;
         this.companyContactNo = companyContactNo;

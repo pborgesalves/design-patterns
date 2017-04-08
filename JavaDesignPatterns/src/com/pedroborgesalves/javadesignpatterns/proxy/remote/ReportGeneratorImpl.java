@@ -22,7 +22,7 @@ public class ReportGeneratorImpl extends UnicastRemoteObject implements ReportGe
         sb.append("\\n Total Price: $2534");
         sb.append("\\n Net Profit: $1985");
         sb.append(
-        "\\n***************************************************************");
+                "\\n***************************************************************");
         return sb.toString();
     }
 

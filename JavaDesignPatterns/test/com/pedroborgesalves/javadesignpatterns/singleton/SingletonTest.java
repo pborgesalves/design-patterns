@@ -25,17 +25,17 @@ import static org.junit.Assert.assertEquals;
  * @author pedroborgesalves
  */
 public class SingletonTest {
-    
+
     @Test
-    public void testPrinterFactory(){
+    public void testPrinterFactory() {
 
         String message = Singleton.getInstance().getMessage();
         assertEquals(message, "This is the message");
-        
+
         Singleton object1 = Singleton.getInstance();
         Singleton object2 = Singleton.getInstance();
-        
+
         assertEquals(object1, object2);
-        
+
     }
 }

@@ -2,16 +2,19 @@ package com.pedroborgesalves.javadesignpatterns.observer;
 
 /**
  * <h1>Observer Pattern</h1>
- * 
- * <p>- When an abstraction has two aspects, one dependent on the other. 
- * Encapsulating these aspects in separate objects lets you vary and 
- * reuse them independently.</p>
- * <p>- When a change to one object requires changing others, and you don’t know
+ *
+ * <p>
+ * - When an abstraction has two aspects, one dependent on the other.
+ * Encapsulating these aspects in separate objects lets you vary and reuse them
+ * independently.</p>
+ * <p>
+ * - When a change to one object requires changing others, and you don’t know
  * how many objects need to be changed.</p>
- * <p>- When an object should be able to notify other objects without making 
- * assumptions about who these objects are. In other words, you don’t want 
- * these objects tightly coupled.</p>
- * 
+ * <p>
+ * - When an object should be able to notify other objects without making
+ * assumptions about who these objects are. In other words, you don’t want these
+ * objects tightly coupled.</p>
+ *
  */
 public class ObserverDemo {
 

@@ -21,14 +21,14 @@ public abstract class HtmlTag implements Element {
     public void addChildTag(HtmlTag htmlTag) {
         throw new UnsupportedOperationException("Current operation is not support for this object");
     }
-    
+
     public void removeChildTag(HtmlTag htmlTag) {
         throw new UnsupportedOperationException("Current operation is not support for this object");
     }
-    
+
     public List<HtmlTag> getChildren() {
         throw new UnsupportedOperationException("Current operation is not support for this object");
     }
-    
+
     public abstract void generateHtml();
 }

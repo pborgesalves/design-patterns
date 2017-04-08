@@ -1,6 +1,6 @@
 package com.pedroborgesalves.javadesignpatterns.flyweight;
 
-public class CPPPlatform implements Platform{
+public class CPPPlatform implements Platform {
 
     public CPPPlatform() {
         System.out.println("CPPPlatform object created");

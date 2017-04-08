@@ -9,9 +9,9 @@ public class DenimMediator implements MachineMediator {
     private final SoilRemoval soilRemoval;
     private final Valve valve;
 
-    public DenimMediator(Machine machine, Heater heater, Motor motor, Sensor sensor,  
-        SoilRemoval soilRemoval,Valve valve){
-        
+    public DenimMediator(Machine machine, Heater heater, Motor motor, Sensor sensor,
+            SoilRemoval soilRemoval, Valve valve) {
+
         this.machine = machine;
         this.heater = heater;
         this.motor = motor;

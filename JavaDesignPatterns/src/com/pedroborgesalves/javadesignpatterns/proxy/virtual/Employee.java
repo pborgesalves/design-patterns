@@ -6,7 +6,7 @@ public class Employee {
     private double employeeSalary;
     private String employeeDesignation;
 
-    public Employee(String employeeName, double employeeSalary, String employeeDesignation){
+    public Employee(String employeeName, double employeeSalary, String employeeDesignation) {
         this.employeeName = employeeName;
         this.employeeSalary = employeeSalary;
         this.employeeDesignation = employeeDesignation;
